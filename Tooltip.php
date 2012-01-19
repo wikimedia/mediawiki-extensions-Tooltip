@@ -5,29 +5,20 @@ $wgExtensionCredits['parserhook'][] = array(
 	'name'           => 'ToolTip',
 	'author'         => 'Paul Grinberg',
 	'descriptionmsg' => 'tooltip-desc',
-	'version'        => '0.5.2',
+	'version'        => '0.6.0',
 );
 
 $dir = dirname( __FILE__ ) . '/';
 $wgExtensionMessagesFiles['Tooltip'] = $dir . 'Tooltip.i18n.php';
+$wgExtensionMessagesFiles['TooltipMagic'] = $dir . 'Tooltip.i18n.magic.php';
 
 $wgHooks['ParserFirstCallInit'][] = 'wfToolTipRegisterParserHooks';
-$wgHooks['LanguageGetMagic'][] = 'wfTooltipParserFunction_Magic';
 $wgHooks['BeforePageDisplay'][] = 'wfTooltipBeforePageDisplay';
 
 function wfToolTipRegisterParserHooks( $parser ) {
     $parser->setHook( 'tooltip', 'renderToolTip' );
     $parser->setFunctionHook( 'tooltip', 'wfTooltipParserFunction_Render' );
     return true;
-}
-
-function wfTooltipParserFunction_Magic( &$magicWords, $langCode ) {
-        # Add the magic word
-        # The first array element is case sensitive, in this case it is not case sensitive
-        # All remaining elements are synonyms for our parser function
-        $magicWords['tooltip'] = array( 0, 'tooltip' );
-        # unless we return true, other parser functions extensions won't get loaded.
-        return true;
 }
 
 function wfTooltipBeforePageDisplay( $out ) {
