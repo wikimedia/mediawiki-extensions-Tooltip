@@ -161,6 +161,13 @@ $messages['eu'] = array(
 	'tooltip-desc' => '<code>&lt;tooltip&gt;</code> eta <code>{{#tooltip:}}</code> etiketan gehitzen ditu',
 );
 
+/** Persian (فارسی)
+ * @author ZxxZxxZ
+ */
+$messages['fa'] = array(
+	'tooltip-desc' => 'برچسب <code>&lt;tooltip&gt;</code> و <code>{{#tooltip:}}</code> را می‌افزاید',
+);
+
 /** Finnish (Suomi)
  * @author Nike
  * @author Str4nd
@@ -326,6 +333,13 @@ $messages['ms'] = array(
 	'tooltip-desc' => 'Membubuh tag <code>&lt;tooltip&gt;</code> dan <code>{{#tooltip:}}</code>',
 );
 
+/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
+ * @author Jon Harald Søby
+ */
+$messages['nb'] = array(
+	'tooltip-desc' => 'Legger til taggene <code>&lt;tooltip&gt;</code> og <code>{{#tooltip:}}</code>',
+);
+
 /** Low German (Plattdüütsch)
  * @author Slomox
  */
@@ -353,13 +367,6 @@ $messages['nl'] = array(
  */
 $messages['nn'] = array(
 	'tooltip-desc' => 'Legg til taggane <code>&lt;tooltip&gt;</code> og <code>{{#tooltip:}}</code>',
-);
-
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
- * @author Jon Harald Søby
- */
-$messages['nb'] = array(
-	'tooltip-desc' => 'Legger til taggene <code>&lt;tooltip&gt;</code> og <code>{{#tooltip:}}</code>',
 );
 
 /** Occitan (Occitan)
