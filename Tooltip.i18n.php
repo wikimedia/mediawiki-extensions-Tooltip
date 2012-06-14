@@ -41,14 +41,14 @@ $messages['arz'] = array(
 	'tooltip-desc' => 'يضيف وسم <code>&lt;tooltip&gt;</code> و <code>{{#tooltip:}}</code>',
 );
 
-/** Asturian (Asturianu)
+/** Asturian (asturianu)
  * @author Xuacu
  */
 $messages['ast'] = array(
 	'tooltip-desc' => 'Amiesta la etiqueta <code>&lt;tooltip&gt;</code> y <code>{{#tooltip:}}</code>',
 );
 
-/** Azerbaijani (Azərbaycanca)
+/** Azerbaijani (azərbaycanca)
  * @author Wertuose
  */
 $messages['az'] = array(
@@ -62,28 +62,28 @@ $messages['be-tarask'] = array(
 	'tooltip-desc' => 'Дадае тэгі <code>&lt;tooltip&gt;</code> і <code>{{#tooltip:}}</code>',
 );
 
-/** Bulgarian (Български)
+/** Bulgarian (български)
  * @author DCLXVI
  */
 $messages['bg'] = array(
 	'tooltip-desc' => 'Добавя етикетите <code>&lt;tooltip&gt;</code> и <code>{{#tooltip:}}</code>',
 );
 
-/** Breton (Brezhoneg)
+/** Breton (brezhoneg)
  * @author Fulup
  */
 $messages['br'] = array(
 	'tooltip-desc' => 'Ouzhpennañ a ra ur valizenn <code>&lt;tooltip&gt;</code> ha <code>{{#tooltip:}}</code>',
 );
 
-/** Bosnian (Bosanski)
+/** Bosnian (bosanski)
  * @author CERminator
  */
 $messages['bs'] = array(
 	'tooltip-desc' => 'Dodaje oznake <code>&lt;tooltip&gt;</code> i <code>{{#tooltip:}}</code>',
 );
 
-/** Catalan (Català)
+/** Catalan (català)
  * @author SMP
  */
 $messages['ca'] = array(
@@ -97,7 +97,7 @@ $messages['ce'] = array(
 	'tooltip-desc' => 'Тlетуху óзориг <code>&lt;tooltip&gt;</code> а <code>{{#tooltip:}}</code>',
 );
 
-/** Czech (Česky)
+/** Czech (česky)
  * @author Matěj Grabovský
  */
 $messages['cs'] = array(
@@ -111,7 +111,7 @@ $messages['cy'] = array(
 	'tooltip-desc' => 'Yn ychwanegu tagiau <code>&lt;tooltip&gt;</code> a <code>{{#tooltip:}}</code> tag',
 );
 
-/** Danish (Dansk)
+/** Danish (dansk)
  * @author Byrial
  */
 $messages['da'] = array(
@@ -147,14 +147,14 @@ $messages['eo'] = array(
 	'tooltip-desc' => 'Aldonas etikedojn <code>&lt;tooltip&gt;</code> kaj <code>{{#tooltip:}}</code>',
 );
 
-/** Spanish (Español)
+/** Spanish (español)
  * @author Sanbec
  */
 $messages['es'] = array(
 	'tooltip-desc' => 'Añade las etiquetas <code>&lt;tooltip&gt;</code> y <code>{{#tooltip:}}</code>',
 );
 
-/** Basque (Euskara)
+/** Basque (euskara)
  * @author Theklan
  */
 $messages['eu'] = array(
@@ -168,7 +168,7 @@ $messages['fa'] = array(
 	'tooltip-desc' => 'برچسب <code>&lt;tooltip&gt;</code> و <code>{{#tooltip:}}</code> را می‌افزاید',
 );
 
-/** Finnish (Suomi)
+/** Finnish (suomi)
  * @author Nike
  * @author Str4nd
  */
@@ -176,7 +176,7 @@ $messages['fi'] = array(
 	'tooltip-desc' => 'Lisää jäsenninlaajennukset <code>&lt;tooltip&gt;</code> ja <code>{{#tooltip:}}</code>.',
 );
 
-/** French (Français)
+/** French (français)
  * @author Grondin
  * @author Urhixidur
  */
@@ -184,7 +184,7 @@ $messages['fr'] = array(
 	'tooltip-desc' => 'Ajoute une balise <nowiki><tooltip></nowiki> et une fonction d’analyseur syntaxique <nowiki>{{#tooltip:}}</nowiki>',
 );
 
-/** Franco-Provençal (Arpetan)
+/** Franco-Provençal (arpetan)
  * @author ChrisPtDe
  */
 $messages['frp'] = array(
@@ -241,14 +241,14 @@ $messages['hsb'] = array(
 	'tooltip-desc' => 'Přidawa tafličku <nowiki><tooltip></nowiki> a <nowiki>{{#tooltip:}}</nowiki>',
 );
 
-/** Hungarian (Magyar)
+/** Hungarian (magyar)
  * @author Dani
  */
 $messages['hu'] = array(
 	'tooltip-desc' => '<code>&lt;tooltip&gt;</code> és <code>{{#tooltip:}}</code> tagek',
 );
 
-/** Interlingua (Interlingua)
+/** Interlingua (interlingua)
  * @author McDutchie
  */
 $messages['ia'] = array(
@@ -269,7 +269,7 @@ $messages['ig'] = array(
 	'tooltip-desc' => 'Nè tí ọdụ <code>&lt;tooltip&gt;</code> na <code>{{#tooltip:}}</code>',
 );
 
-/** Italian (Italiano)
+/** Italian (italiano)
  * @author Darth Kule
  */
 $messages['it'] = array(
@@ -318,7 +318,7 @@ $messages['li'] = array(
 	'tooltip-desc' => 'Veug de tags <nowiki><tooltip></nowiki> en <nowiki>{{#tooltip:}}</nowiki> toe',
 );
 
-/** Macedonian (Македонски)
+/** Macedonian (македонски)
  * @author Bjankuloski06
  * @author Brest
  */
@@ -362,14 +362,14 @@ $messages['nl'] = array(
 	'tooltip-desc' => 'Voegt de tags <nowiki><tooltip></nowiki> en <nowiki>{{#tooltip:}}</nowiki> toe',
 );
 
-/** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
+/** Norwegian Nynorsk (‪norsk (nynorsk)‬)
  * @author Frokor
  */
 $messages['nn'] = array(
 	'tooltip-desc' => 'Legg til taggane <code>&lt;tooltip&gt;</code> og <code>{{#tooltip:}}</code>',
 );
 
-/** Occitan (Occitan)
+/** Occitan (occitan)
  * @author Cedric31
  */
 $messages['oc'] = array(
@@ -383,7 +383,7 @@ $messages['pdc'] = array(
 	'tooltip-desc' => '<code>&lt;tooltip&gt;</code>- unn <code>{{#tooltip:}}</code>-Tags dezu duh',
 );
 
-/** Polish (Polski)
+/** Polish (polski)
  * @author Matma Rex
  * @author Sp5uhe
  */
@@ -398,63 +398,63 @@ $messages['pms'] = array(
 	'tooltip-desc' => 'A gionta ël tag <code>&lt;tooltip&gt;</code> e ël tag <code>{{#tooltip:}}</code>',
 );
 
-/** Portuguese (Português)
+/** Portuguese (português)
  * @author Waldir
  */
 $messages['pt'] = array(
 	'tooltip-desc' => 'Acrescenta as tags <code>&lt;tooltip&gt;</code> e <code>{{#tooltip:}}</code>',
 );
 
-/** Brazilian Portuguese (Português do Brasil)
+/** Brazilian Portuguese (português do Brasil)
  * @author Eduardo.mps
  */
 $messages['pt-br'] = array(
 	'tooltip-desc' => 'Acrescenta as marcas <code>&lt;tooltip&gt;</code> e <code>{{#tooltip:}}</code>',
 );
 
-/** Tarandíne (Tarandíne)
+/** tarandíne (tarandíne)
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
 	'tooltip-desc' => 'Aggiunge le tag <code>&lt;tooltip&gt;</code> e <code>{{#tooltip:}}</code>',
 );
 
-/** Russian (Русский)
+/** Russian (русский)
  * @author Александр Сигачёв
  */
 $messages['ru'] = array(
 	'tooltip-desc' => 'Добавляет теги <code>&lt;tooltip&gt;</code> и <code>{{#tooltip:}}</code>',
 );
 
-/** Slovak (Slovenčina)
+/** Slovak (slovenčina)
  * @author Helix84
  */
 $messages['sk'] = array(
 	'tooltip-desc' => 'Pridáva značky <nowiki><tooltip></nowiki> a <nowiki>{{#tooltip:}}</nowiki>',
 );
 
-/** Slovenian (Slovenščina)
+/** Slovenian (slovenščina)
  * @author Dbc334
  */
 $messages['sl'] = array(
 	'tooltip-desc' => 'Doda etiketi <code>&lt;tooltip&gt;</code> in <code>{{#tooltip:}}</code>',
 );
 
-/** Albanian (Shqip)
+/** Albanian (shqip)
  * @author Puntori
  */
 $messages['sq'] = array(
 	'tooltip-desc' => 'Vendosë kodet <code>&lt;tooltip&gt;</code> dhe <code>{{#tooltip:}}</code>',
 );
 
-/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
  * @author Михајло Анђелковић
  */
 $messages['sr-ec'] = array(
 	'tooltip-desc' => 'Додаје <code>&lt;tooltip&gt;</code> и <code>{{#tooltip:}}</code> тагове',
 );
 
-/** Serbian (Latin script) (‪Srpski (latinica)‬)
+/** Serbian (Latin script) (‪srpski (latinica)‬)
  * @author Michaello
  */
 $messages['sr-el'] = array(
@@ -475,7 +475,7 @@ $messages['su'] = array(
 	'tooltip-desc' => 'Nambahkeun tag <code>&lt;tooltip&gt;</code> jeung <code>{{#tooltip:}}</code>',
 );
 
-/** Swedish (Svenska)
+/** Swedish (svenska)
  * @author M.M.S.
  */
 $messages['sv'] = array(
@@ -503,14 +503,14 @@ $messages['tr'] = array(
 	'tooltip-desc' => '<code>&lt;tooltip&gt;</code> ve <code>{{#tooltip:}}</code> etiketini ekler',
 );
 
-/** Ukrainian (Українська)
+/** Ukrainian (українська)
  * @author Prima klasy4na
  */
 $messages['uk'] = array(
 	'tooltip-desc' => 'Додає теги <code>&lt;tooltip&gt;</code> та <code>{{#tooltip:}}</code>',
 );
 
-/** Vèneto (Vèneto)
+/** vèneto (vèneto)
  * @author Candalua
  */
 $messages['vec'] = array(
