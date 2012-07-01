@@ -55,7 +55,7 @@ $messages['az'] = array(
 	'tooltip-desc' => '<code>&lt;tooltip&gt;</code> və <code>{{#tooltip:}}</code> teqlərini əlavə edir',
 );
 
-/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  */
 $messages['be-tarask'] = array(
@@ -126,7 +126,7 @@ $messages['de'] = array(
 	'tooltip-desc' => 'Ergänzt die <code>&lt;tooltip&gt;</code>- und <code>{{#tooltip:}}</code>-Tags',
 );
 
-/** Lower Sorbian (Dolnoserbski)
+/** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
 $messages['dsb'] = array(
@@ -191,7 +191,7 @@ $messages['frp'] = array(
 	'tooltip-desc' => 'Apond <nowiki><tooltip></nowiki> et una balisa <nowiki>{{#tooltip:}}</nowiki>.',
 );
 
-/** Galician (Galego)
+/** Galician (galego)
  * @author Toliño
  */
 $messages['gl'] = array(
@@ -234,7 +234,7 @@ $messages['hil'] = array(
 	'tooltip-desc' => 'Nagadugang <code>&lt;tooltip&gt;</code> kag <code>{{#tooltip:}}</code> tag',
 );
 
-/** Upper Sorbian (Hornjoserbsce)
+/** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
 $messages['hsb'] = array(
