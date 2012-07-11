@@ -90,7 +90,7 @@ $messages['ca'] = array(
 	'tooltip-desc' => 'Afegeix les etiquetes de sintaxi <code>&lt;tooltip&gt;</code> i <code>{{#tooltip:}}</code>',
 );
 
-/** Chechen (Нохчийн)
+/** Chechen (нохчийн)
  * @author Sasan700
  */
 $messages['ce'] = array(
@@ -333,9 +333,7 @@ $messages['ms'] = array(
 	'tooltip-desc' => 'Membubuh tag <code>&lt;tooltip&gt;</code> dan <code>{{#tooltip:}}</code>',
 );
 
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
- * @author Jon Harald Søby
- */
+/** Norwegian Bokmål (‪norsk (bokmål)‬) */
 $messages['nb'] = array(
 	'tooltip-desc' => 'Legger til taggene <code>&lt;tooltip&gt;</code> og <code>{{#tooltip:}}</code>',
 );
