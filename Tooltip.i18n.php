@@ -424,6 +424,13 @@ $messages['ru'] = array(
 	'tooltip-desc' => 'Добавляет теги <code>&lt;tooltip&gt;</code> и <code>{{#tooltip:}}</code>',
 );
 
+/** Rusyn (русиньскый)
+ * @author Gazeb
+ */
+$messages['rue'] = array(
+	'tooltip-desc' => 'Придавать значкы <code>&lt;tooltip&gt;</code> і <code>{{#tooltip:}}</code>',
+);
+
 /** Slovak (slovenčina)
  * @author Helix84
  */
