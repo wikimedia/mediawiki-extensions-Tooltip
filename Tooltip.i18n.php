@@ -290,6 +290,13 @@ $messages['jv'] = array(
 	'tooltip-desc' => 'Nambahaké <code>&lt;tooltip&gt;</code> lan tag <code>{{#tooltip:}}</code>',
 );
 
+/** Georgian (ქართული)
+ * @author David1010
+ */
+$messages['ka'] = array(
+	'tooltip-desc' => 'ამატებს ტეგებს <code>&lt;tooltip&gt;</code> და <code>{{#tooltip:}}</code>',
+);
+
 /** Korean (한국어)
  * @author Kwj2772
  */
