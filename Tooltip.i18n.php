@@ -278,9 +278,10 @@ $messages['it'] = array(
 
 /** Japanese (日本語)
  * @author Fryed-peach
+ * @author Shirayuki
  */
 $messages['ja'] = array(
-	'tooltip-desc' => '<code>&lt;tooltip&gt;</code> および <code>{{#tooltip:}}</code> タグを追加する',
+	'tooltip-desc' => '<code>&lt;tooltip&gt;</code> タグおよび <code>{{#tooltip:}}</code> タグを追加する',
 );
 
 /** Javanese (Basa Jawa)
