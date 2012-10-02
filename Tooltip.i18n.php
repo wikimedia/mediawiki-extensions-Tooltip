@@ -55,7 +55,7 @@ $messages['az'] = array(
 	'tooltip-desc' => '<code>&lt;tooltip&gt;</code> və <code>{{#tooltip:}}</code> teqlərini əlavə edir',
 );
 
-/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author EugeneZelenko
  */
 $messages['be-tarask'] = array(
@@ -341,7 +341,7 @@ $messages['ms'] = array(
 	'tooltip-desc' => 'Membubuh tag <code>&lt;tooltip&gt;</code> dan <code>{{#tooltip:}}</code>',
 );
 
-/** Norwegian Bokmål (‪norsk (bokmål)‬) */
+/** Norwegian Bokmål (norsk (bokmål)‎) */
 $messages['nb'] = array(
 	'tooltip-desc' => 'Legger til taggene <code>&lt;tooltip&gt;</code> og <code>{{#tooltip:}}</code>',
 );
@@ -368,7 +368,7 @@ $messages['nl'] = array(
 	'tooltip-desc' => 'Voegt de tags <nowiki><tooltip></nowiki> en <nowiki>{{#tooltip:}}</nowiki> toe',
 );
 
-/** Norwegian Nynorsk (‪norsk (nynorsk)‬)
+/** Norwegian Nynorsk (norsk (nynorsk)‎)
  * @author Frokor
  */
 $messages['nn'] = array(
@@ -460,14 +460,14 @@ $messages['sq'] = array(
 	'tooltip-desc' => 'Vendosë kodet <code>&lt;tooltip&gt;</code> dhe <code>{{#tooltip:}}</code>',
 );
 
-/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (српски (ћирилица)‎)
  * @author Михајло Анђелковић
  */
 $messages['sr-ec'] = array(
 	'tooltip-desc' => 'Додаје <code>&lt;tooltip&gt;</code> и <code>{{#tooltip:}}</code> тагове',
 );
 
-/** Serbian (Latin script) (‪srpski (latinica)‬)
+/** Serbian (Latin script) (srpski (latinica)‎)
  * @author Michaello
  */
 $messages['sr-el'] = array(
