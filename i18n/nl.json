@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"SPQRobin",
+			"Tvdm"
+		]
+	},
+	"tooltip-desc": "Voegt de tags <nowiki><tooltip></nowiki> en <nowiki>{{#tooltip:}}</nowiki> toe"
+}

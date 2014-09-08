@@ -4,12 +4,14 @@ $wgExtensionCredits['parserhook'][] = array(
 	'path'           => __FILE__,
 	'name'           => 'ToolTip',
 	'author'         => 'Paul Grinberg',
+	'url'            => 'https://www.mediawiki.org/wiki/Extension:Tooltip',
 	'descriptionmsg' => 'tooltip-desc',
-	'version'        => '0.6.0',
+	'version'        => '0.6.1',
 );
 
 $dir = dirname( __FILE__ ) . '/';
 $wgExtensionMessagesFiles['Tooltip'] = $dir . 'Tooltip.i18n.php';
+$wgMessagesDirs['Tooltip'] = $dir . 'i18n';
 $wgExtensionMessagesFiles['TooltipMagic'] = $dir . 'Tooltip.i18n.magic.php';
 
 $wgHooks['ParserFirstCallInit'][] = 'wfToolTipRegisterParserHooks';
