@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"M.M.S."
+			"M.M.S.",
+			"Jopparn"
 		]
 	},
-	"tooltip-desc": "Lägger till <code>&lt;tooltip&gt;</code> och <code>{{#tooltip:}}</code>-taggarna"
+	"tooltip-desc": "Lägger till <code>&lt;tooltip&gt;</code>- och <code>{{#tooltip:}}</code>-taggarna"
 }
