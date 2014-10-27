@@ -1,6 +1,4 @@
 {
-	"@metadata": {
-		"authors": []
-	},
+	"@metadata": [],
 	"tooltip-desc": "Legger til taggene <code>&lt;tooltip&gt;</code> og <code>{{#tooltip:}}</code>"
 }
