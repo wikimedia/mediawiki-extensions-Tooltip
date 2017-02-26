@@ -4,5 +4,5 @@
 			"Fulup"
 		]
 	},
-	"tooltip-desc": "Ouzhpennañ a ra ur valizenn <code>&lt;tooltip&gt;</code> ha <code>{{#tooltip:}}</code>"
+	"tooltip-desc": "Ouzhpennañ a ra un dikedenn <code>&lt;tooltip&gt;</code> ha <code>{{#tooltip:}}</code>"
 }
