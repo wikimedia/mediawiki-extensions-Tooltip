@@ -10,7 +10,6 @@ $wgExtensionCredits['parserhook'][] = array(
 );
 
 $dir = dirname( __FILE__ ) . '/';
-$wgExtensionMessagesFiles['Tooltip'] = $dir . 'Tooltip.i18n.php';
 $wgMessagesDirs['Tooltip'] = $dir . 'i18n';
 $wgExtensionMessagesFiles['TooltipMagic'] = $dir . 'Tooltip.i18n.magic.php';
 
