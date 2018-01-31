@@ -16,6 +16,14 @@ $wgExtensionMessagesFiles['TooltipMagic'] = $dir . 'Tooltip.i18n.magic.php';
 $wgHooks['ParserFirstCallInit'][] = 'wfToolTipRegisterParserHooks';
 $wgHooks['BeforePageDisplay'][] = 'wfTooltipBeforePageDisplay';
 
+$wgResourceModules += array(
+	'ext.tooltip' => [
+		'scripts' => 'Tooltip.js',
+		'styles' => 'Tooltip.css',
+		'localBasePath' => __DIR__ . '/modules',
+		'remoteExtPath' => 'Tooltip/modules',
+] );
+
 function wfToolTipRegisterParserHooks( $parser ) {
     $parser->setHook( 'tooltip', 'renderToolTip' );
     $parser->setFunctionHook( 'tooltip', 'wfTooltipParserFunction_Render' );
@@ -23,10 +31,7 @@ function wfToolTipRegisterParserHooks( $parser ) {
 }
 
 function wfTooltipBeforePageDisplay( $out ) {
-	global $wgExtensionAssetsPath;
-
-	$out->addScriptFile( "$wgExtensionAssetsPath/Tooltip/Tooltip.js" );
-	$out->addExtensionStyle( "$wgExtensionAssetsPath/Tooltip/Tooltip.css" );
+	$out->addModules( 'ext.tooltip' );
 	return true;
 }
 
