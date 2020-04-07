@@ -2,8 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"SPQRobin",
-			"Tvdm",
-			"Siebrand"
+			"Siebrand",
+			"Tvdm"
 		]
 	},
 	"tooltip-desc": "Voegt de labels <nowiki><tooltip></nowiki> en <nowiki>{{#tooltip:}}</nowiki> toe"
