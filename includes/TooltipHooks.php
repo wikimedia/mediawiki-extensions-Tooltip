@@ -6,7 +6,7 @@ class TooltipHooks {
 	 */
 	public static function wfToolTipRegisterParserHooks( $parser ) {
 		$parser->setHook( 'tooltip', [ __CLASS__, 'renderToolTip' ] );
-		$parser->setFunctionHook( 'tooltip', [ __CLASS__, 'wfTooltipParserFunction_Render' ] );
+		$parser->setFunctionHook( 'tooltip', [ __CLASS__, 'wfTooltipParserFunctionRender' ] );
 	}
 
 	/**
@@ -24,7 +24,7 @@ class TooltipHooks {
 	 * @param int $y
 	 * @return array
 	 */
-	public static function wfTooltipParserFunction_Render(
+	public static function wfTooltipParserFunctionRender(
 		$parser, $basetext = '', $tooltiptext = '', $x = 0, $y = 0
 	) {
 		$output = self::renderToolTip( $tooltiptext, [
@@ -43,7 +43,7 @@ class TooltipHooks {
 
 	/**
 	 * @param string $input
-	 * @param string[] $argv
+	 * @param array $argv
 	 * @param Parser $parser
 	 * @return string
 	 */
@@ -74,9 +74,12 @@ class TooltipHooks {
 			$tooltipid = uniqid( 'tooltipid' );
 			$parentid = uniqid( 'parentid' );
 			$output .= "<span id='$tooltipid' class='xstooltip'>" .
+				// @phan-suppress-next-line PhanUndeclaredMethod
 				$parser->unstrip( $parser->recursiveTagParse( $input ), $parser->mStripState ) .
 				"</span>";
+			// phpcs:ignore Generic.Files.LineLength.TooLong
 			$output .= "<span id='$parentid' class='xstooltip_body' onmouseover=\"xstooltip_show('$tooltipid', '$parentid', $xoffset, $yoffset);\" onmouseout=\"xstooltip_hide('$tooltipid');\">" .
+				// @phan-suppress-next-line PhanUndeclaredMethod
 				$parser->unstrip( $parser->recursiveTagParse( $text ), $parser->mStripState ) .
 				"</span>";
 		}
