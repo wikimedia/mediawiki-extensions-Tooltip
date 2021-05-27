@@ -1,0 +1,38 @@
+{
+	"name": "Tooltip",
+	"version": "0.7.0",
+	"author": [
+		"Paul Grinberg"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:Tooltip",
+	"descriptionmsg": "tooltip-desc",
+	"requires": {
+		"MediaWiki": ">= 1.35.0"
+	},
+	"MessagesDirs": {
+		"Tooltip": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"TooltipMagic": "Tooltip.i18n.magic.php"
+	},
+	"AutoloadClasses": {
+		"TooltipHooks": "includes/TooltipHooks.php"
+	},
+	"Hooks": {
+		"ParserFirstCallInit": "TooltipHooks::wfToolTipRegisterParserHooks",
+		"BeforePageDisplay": "TooltipHooks::wfTooltipBeforePageDisplay"
+	},
+	"ResourceModules": {
+		"ext.tooltip": {
+			"styles": "Tooltip.css",
+			"scripts": "Tooltip.js"
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "modules",
+		"remoteExtPath": "Tooltip/modules"
+	},
+	"manifest_version": 2
+}
