@@ -5,13 +5,13 @@
 	left: 0;
 	z-index: 2;
 	font: normal 8pt sans-serif;
-	color: white;
+	color: #fff;
 	padding: 3px;
 	border: solid 1px;
 	background-repeat: repeat;
-	/*background-image: url($wgScriptPath/images/ttbg.png);*/
+	/* background-image: url($wgScriptPath/images/ttbg.png); */
 }
 
 .xstooltip_body {
-	color: green;
+	color: #008000;
 }
