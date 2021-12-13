@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Renan"
+		]
+	},
+	"tooltip-desc": "Addi marcationes <code>&lt;tooltip&gt;</code> e <code>{{#tooltip:}}</code>"
+}
