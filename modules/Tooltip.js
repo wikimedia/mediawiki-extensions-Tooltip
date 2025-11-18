@@ -1,5 +1,5 @@
 function xstooltip_findPosX( obj ) {
-	var curleft = 0;
+	let curleft = 0;
 	if ( obj.offsetParent ) {
 		while ( obj.offsetParent ) {
 			curleft += obj.offsetLeft;
@@ -12,7 +12,7 @@ function xstooltip_findPosX( obj ) {
 }
 
 function xstooltip_findPosY( obj ) {
-	var curtop = 0;
+	let curtop = 0;
 	if ( obj.offsetParent ) {
 		while ( obj.offsetParent ) {
 			curtop += obj.offsetTop;
